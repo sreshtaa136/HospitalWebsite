@@ -1,0 +1,141 @@
+/* ---------- HOME PAGE STYLING ------------------------*/
+
+#myCarousel {
+    grid-area: div;
+    box-shadow: 0 1px 3px -1px hsl(50, 10%, 20%);
+}
+
+#myCarousel img { 
+    width: 40%;
+    margin: auto;
+}
+
+#myCarousel .item {
+    /* padding: 0em 4em 0em 4em; */
+    background-color: hsl(0, 0%, 0%);
+}
+
+.about-us {
+    padding: 1em 9em 4em 4em;
+    height: 30em;
+    margin-bottom: 78px;
+}
+
+.about-us .text-area {
+    display: inline;
+    float: left;
+    margin-left: 1em;
+    line-height: 1.8;
+}
+
+.about-us img {
+    float: right;
+    width: 36em;
+    height: 93%;
+    margin: 94px 0px 32px;
+}
+
+.about-us .fee-details-collapsible {
+    display: block;
+    border: none;
+    border-radius: 0.5em;
+    outline: none;
+    width: 100%;
+    height: 3em;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    margin-top: 2em;
+    background: rgb(0, 0, 0);
+    box-shadow:  -5px 5px 20px #e3e3e3,
+             5px -5px 20px #ffffff;
+    color: white;
+    text-align: left;
+    font-size: 17px;
+    /* time taken for bg shift */
+    transition: background 0.2s;
+}
+
+.fee-details-collapsible::after {
+    content: '\25be';
+    margin-right: 1em;
+    float: right;
+    transform: scale(1.2);
+}
+
+.fee-details-collapsible--active::after {
+    content: '\25b4';
+    transform: scale(1.5);
+}
+
+/* second active only when first one is active */
+.fee-details-collapsible--active + .fee-details {
+    display: block;
+}
+
+.fee-details {
+    width: 99%;
+    padding: 1em 2em;
+    background-color: hsl(200, 100%, 90%);
+    display: none;
+    overflow: auto;
+    border-bottom-left-radius: 0.2em;
+    border-bottom-right-radius: 0.2em;
+    margin: 0px 0px 0px 2.4px;
+    font-size: 16px;
+}
+
+.fee-details table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: hsl(200, 100%, 90%);
+}
+
+.fee-details table td, th {
+    text-align: center;
+}
+
+.who-we-are {
+    margin-left: 1em;
+    padding: 1em 4em 4em 4em;
+    margin-bottom: 0em;
+    display: inline-block;
+} 
+
+.who-we-are .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 95.7%;
+    background-color: hsl(201, 68%, 88%);
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    margin-bottom: 1em;
+    margin-right: 1em;
+    margin-top: 1em;
+    padding: 2em;
+    border-radius: 13px;
+}
+
+.who-we-are .card-content {
+    line-height: 1.6;
+}
+
+.who-we-are img {
+    width: 18em;
+    height: 22em;
+    float: left;
+    margin-right: 2em;
+}
+
+.container {
+    padding: 0 16px;
+}
+
+.service-area {
+    padding: 0em 4em 0em 4em;
+    height: 15em;
+    margin: 0em 0em 2em 1em;
+}
+
+.service-area h2 {
+    color: hsl(200, 50%, 30%);
+}
+

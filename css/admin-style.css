@@ -1,0 +1,77 @@
+/* ---------- ADMIN PAGE STYLING ------------------------*/
+
+.grid-container h1 {
+    font-weight: bold;
+    text-align: center;
+}
+
+#nav .logout-submit {
+    display: inline;
+    border-radius: 0.5em;
+    box-shadow:  5px 5px 10px #e6c72e,
+        -5px -5px 10px #fff338;
+    padding: 0.6em 0.6em 0.6em 0.6em;
+    margin-bottom: 0.8em;
+    margin-left: 12em;
+    background-color: hsl(50, 100%, 60%);
+    color: rgb(36, 36, 36);
+    border: none;
+}
+
+#nav .logout-submit:hover {
+    color: rgb(0, 0, 0);
+    background-color: linear-gradient(145deg, #f6d636, #ffec37);
+    box-shadow: 5px 5px 10px #f7d632,
+                -5px -5px 10px #f2e536;
+}
+
+#data-table {
+    margin-top: 7em;
+}
+
+#data-table p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: hsl(200, 50%, 30%);
+    margin-bottom: 1em;
+}
+
+#data-table table {
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 1px 3px -1px hsl(50, 10%, 20%);
+    background: hsl(199, 88%, 84%);
+    border-radius: 0.5em;
+    font-size: 15px;
+    padding: 1em 2em;
+}
+
+#data-table th, td {
+    padding: 1.5em 1.5em;
+    text-align: center;
+}
+
+.grid-container .login-form-container {
+    background-color: hsla(200, 100%, 80%);
+    border-radius: 10px;
+    padding: 4em 2em 2em 2em;
+    width: 60em;
+    margin: 10em 0em 20em 32em;
+    box-shadow: 0 1px 3px -1px hsl(50, 10%, 20%);
+}
+
+.grid-container .register-form-container {
+    background-color: hsla(200, 100%, 80%);
+    border-radius: 10px;
+    padding: 1.7em 2em 2em 2em;
+    margin: 5em 0em 3em 32em;
+    width: 60em;
+    box-shadow: 0 1px 3px -1px hsl(50, 10%, 20%);
+}
+
+.grid-container .register-form-container h3 {
+    color: hsl(200, 50%, 30%);
+}
+
+

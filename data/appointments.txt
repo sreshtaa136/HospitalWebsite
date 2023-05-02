@@ -1,0 +1,5 @@
+"14-10-2022 12:30:42",HA1A,2022-10-14,ChildhoodVaccinationShots,9am-12pm
+"14-10-2022 12:31:18",ST11B,2022-10-28,InfluenzaShot,"9am-12pm 3pm-6pm"
+"14-10-2022 19:08:19",ST11B,2022-10-20,CovidBoosterShot,"9am-12pm 3pm-6pm"
+"14-10-2022 19:49:42",SL998Z,2022-10-26,BloodTest,"9am-12pm 12pm-3pm 3pm-6pm"
+"14-10-2022 22:30:09",AK6969D,2022-10-15,ChildhoodVaccinationShots,"9am-12pm 3pm-6pm"
